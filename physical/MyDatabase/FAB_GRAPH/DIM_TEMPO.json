@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "DIM_TEMPO",
+    "sourceTable" : "physicalTable:MyDatabase.FAB_GRAPH.TEMPO",
+    "overrideSourceCacheSetting" : false
+  }
+}

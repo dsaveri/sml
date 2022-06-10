@@ -1,0 +1,57 @@
+{
+  "physicalTable" : {
+    "name" : "PORTAFOGLIO_CREDITI",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "ISTITUTO",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : false
+    }, {
+      "name" : "FILIALE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : false
+    }, {
+      "name" : "REGIONE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : false
+    }, {
+      "name" : "DATA",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TIPO_STATO_CREDITO",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : false
+    }, {
+      "name" : "STATO_CREDITO",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : false
+    }, {
+      "name" : "CREDITI",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AVG_CREDITI",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.FAB_GRAPH.TEMPO",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.FAB_GRAPH.PORTAFOGLIO_CREDITI.DATA",
+        "rightColumn" : "physicalColumn:MyDatabase.FAB_GRAPH.TEMPO.DAY_DT"
+      } ]
+    } ]
+  }
+}

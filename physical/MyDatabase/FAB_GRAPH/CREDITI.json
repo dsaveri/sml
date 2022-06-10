@@ -1,0 +1,17 @@
+{
+  "physicalTable" : {
+    "name" : "CREDITI",
+    "sourceTable" : "physicalTable:MyDatabase.FAB_GRAPH.PORTAFOGLIO_CREDITI",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.FAB_GRAPH.DIM_TEMPO",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.FAB_GRAPH.CREDITI.DATA",
+        "rightColumn" : "physicalColumn:MyDatabase.FAB_GRAPH.DIM_TEMPO.DAY_DT"
+      } ]
+    } ]
+  }
+}

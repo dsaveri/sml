@@ -1,0 +1,12 @@
+{
+  "presentationTable" : {
+    "name" : "Misure",
+    "presentationColumns" : [ {
+      "name" : "AVG_CREDITI",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.CREDITI.AVG_CREDITI"
+    }, {
+      "name" : "CREDITI",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.CREDITI.CREDITI"
+    } ]
+  }
+}

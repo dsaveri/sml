@@ -1,0 +1,11 @@
+{
+  "subjectArea" : {
+    "name" : "T001_Crediti",
+    "sourceBusinessModel" : "businessModel:Analisi Crediti",
+    "tableOrder" : [ {
+      "name" : "presentationTable:T001_Crediti.Misure"
+    }, {
+      "name" : "presentationTable:T001_Crediti.TEMPO"
+    } ]
+  }
+}

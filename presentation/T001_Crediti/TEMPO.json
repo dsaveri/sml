@@ -1,0 +1,21 @@
+{
+  "presentationTable" : {
+    "name" : "TEMPO",
+    "presentationColumns" : [ {
+      "name" : "PER_NAME_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.DIM_TEMPO.PER_NAME_YEAR"
+    }, {
+      "name" : "PER_NAME_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.DIM_TEMPO.PER_NAME_WEEK"
+    }, {
+      "name" : "PER_NAME_QTR",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.DIM_TEMPO.PER_NAME_QTR"
+    }, {
+      "name" : "PER_NAME_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.DIM_TEMPO.PER_NAME_MONTH"
+    }, {
+      "name" : "DAY_DT",
+      "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.DIM_TEMPO.DAY_DT"
+    } ]
+  }
+}
