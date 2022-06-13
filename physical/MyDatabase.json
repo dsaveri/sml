@@ -7,7 +7,7 @@
       "connection" : "'system'.'DBCS 21c CONSULTING'",
       "remoteConnection" : false,
       "maxConnections" : 10,
-      "requiresFullyQualifedTableNames" : false,
+      "requiresFullyQualifedTableNames" : true,
       "connectionTimeout" : 5,
       "connectionTimeoutUnit" : "MINUTES",
       "multithreaded" : true,

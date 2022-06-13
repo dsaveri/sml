@@ -1,11 +1,13 @@
 {
   "presentationTable" : {
     "name" : "Misure",
+    "description" : "TAbelle delle misure2 aggioranatta da dev1",
     "presentationColumns" : [ {
       "name" : "AVG_CREDITI",
       "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.CREDITI.AVG_CREDITI"
     }, {
       "name" : "CREDITI",
+      "description" : "Totale Crediti",
       "sourceLogicalColumn" : "logicalColumn:Analisi Crediti.CREDITI.CREDITI"
     } ]
   }
